@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.study">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sdu_icon"
+        android:label="山大市场"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".WebActivity"></activity>
+        <activity android:name=".temp_shop_list2" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".SingleGoods2" />
+        <activity android:name=".temp_shop_list" />
+        <activity android:name=".SingleGoods1" />
+        <activity android:name=".JoinActivity" />
+        <activity android:name=".SpinnerDialogActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
